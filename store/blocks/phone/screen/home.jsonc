@@ -1,0 +1,9 @@
+{
+  "responsive-layout.phone#home__section-1": {
+    "title": "Section 1 Phone Home",
+    "children": [
+      "flex-layout.row#home__hero--phone",
+      "flex-layout.row#home__releases-section--phone"
+    ]
+  }
+}

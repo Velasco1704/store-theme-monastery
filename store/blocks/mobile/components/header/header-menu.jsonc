@@ -1,0 +1,81 @@
+{
+  "drawer#header__menu--mobile": {
+    "children": [
+      // "menu#header__menu"
+      "flex-layout.row#mega-menu"
+    ]
+  },
+
+  "flex-layout.row#mega-menu": {
+    "children": [
+      "mega-menu#desktop"
+    ]
+  },
+  "mega-menu#desktop": {
+    "props": {
+      "openOnly": "vertical"
+    }
+  }
+  // "menu#header__menu": {
+  //   "children": [
+  //     "menu-item#department-new-releases"
+  //   ]
+  // },
+  // "menu-item#department-new-releases": {
+  //   "props": {
+  //     "id": "new-releases",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "#",
+  //       "noFollow": true,
+  //       "tagTitle": "New Releases Title",
+  //       "text": "NEW RELEASES"
+  //     }
+  //   },
+  //   "blocks": [
+  //     "submenu.accordion#department-new-releases"
+  //   ]
+  // },
+  // "submenu.accordion#department-new-releases": {
+  //   "children": [
+  //     "menu#department-new-releases"
+  //   ],
+  //   "props": {}
+  // },
+  // "menu#department-new-releases": {
+  //   "children": [
+  //     "menu-item#category-new-releases-men",
+  //     "menu-item#category-new-releases-woman"
+  //   ],
+  //   "props": {
+  //     "orientation": "vertical"
+  //   }
+  // },
+  // "menu-item#category-new-releases-men": {
+  //   "props": {
+  //     "id": "new-releases-men",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/#",
+  //       "noFollow": true,
+  //       "tagTitle": "New Releases Men",
+  //       "text": "NEW RELEASES FOR MEN"
+  //     }
+  //   }
+  // },
+  // "menu-item#category-new-releases-woman": {
+  //   "props": {
+  //     "id": "new-releases-woman",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/#",
+  //       "noFollow": true,
+  //       "tagTitle": "New Releases Woman",
+  //       "text": "NEW RELEASES FOR WOMAN"
+  //     }
+  //   }
+  // },
+}

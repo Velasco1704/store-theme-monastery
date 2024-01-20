@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#home__hero--tablet": {
+    "title": "tablet Home Hero",
+    "children": [
+      "link.product#product-page#home__link"
+    ],
+    "props": {
+      "blockClass": "home__hero--tablet",
+      "fullWidth": true
+    }
+  },
+  "link.product#product-page#home__link": {
+    "props": {
+      "href": "/#",
+      "label": "EXPLORE NOW",
+      "displayMode": "button"
+    }
+  }
+}

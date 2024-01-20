@@ -1,0 +1,8 @@
+{
+  "icon#header__login-icon": {
+    "props": {
+      "id": "hpa-profile",
+      "size": 16
+    }
+  }
+}

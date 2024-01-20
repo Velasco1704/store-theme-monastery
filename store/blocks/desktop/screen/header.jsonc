@@ -1,0 +1,39 @@
+{
+  "header-layout.desktop": {
+    "title": "Header Mobile",
+    "children": [
+      "header-row#header__container--desktop"
+    ]
+  },
+
+  "header-row#header__container--desktop": {
+    "children": [
+      "rich-text#logo--desktop",
+      "menu#header__menu--desktop",
+      "header-row#header__widgets-container--desktop"
+    ],
+    "props": {
+      "blockClass": "header__container--desktop",
+      "fullWidth": true
+    }
+  },
+
+  "rich-text#logo--desktop": {
+    "props": {
+      "text": "MONASTERY",
+      "blockClass": "logo--desktop"
+    }
+  },
+
+  "header-row#header__widgets-container--desktop": {
+    "children": [
+      // "search-bar#header__search",
+      "icon#header__icon-search",
+      "icon#header__login-icon",
+      "minicart.v2#cart--desktop"
+    ],
+    "props": {
+      "blockClass": "header__widgets-container--desktop"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "flex-layout.row#home__releases--phone": {
+    "children": [
+      "rich-text#releases-section__title-woman--phone",
+      "flex-layout.row#releases-section__cards-container--phone",
+      "flex-layout.row#releases-section__explore-container--phone"
+    ]
+  },
+
+  "rich-text#releases-section__title-woman--phone": {
+    "props": {
+      "text": "NEW RELEASES FOR WOMAN",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#releases-section__cards-container--phone": {
+    "children": [
+      "flex-layout.col#card__one--phone",
+      "flex-layout.col#card__two--phone"
+    ],
+    "props": {
+      "marginTop": 5,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "colJustify": "center",
+      "colGap": 5,
+      "horizontalAlign": "center",
+      "blockClass": "releases-section__cards-container--phone"
+    }
+  },
+
+  "flex-layout.col#card__one--phone": {
+    "children": [
+      "image#card__one"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.col#card__two--phone": {
+    "children": [
+      "image#card__two"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "image#card__one": {
+    "props": {
+      "src": "assets/img/products/woman/white-top.jpg"
+    }
+  },
+  "image#card__two": {
+    "props": {
+      "src": "assets/img/products/woman/black-top.jpg"
+    }
+  },
+
+  "flex-layout.row#releases-section__explore-container--phone": {
+    "children": [
+      "flex-layout.row#explore__card--men",
+      "flex-layout.row#explore__card--woman"
+    ]
+  },
+  "flex-layout.row#explore__card--men": {},
+  "flex-layout.row#explore__card--woman": {}
+}

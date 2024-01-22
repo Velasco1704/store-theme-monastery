@@ -1,0 +1,4 @@
+ :global(.vtex-store__template) {
+   --black: #000;
+   --white: #fff;
+}

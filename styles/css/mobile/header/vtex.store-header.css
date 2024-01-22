@@ -1,0 +1,40 @@
+.headerRowContentContainer--header__container--mobile {
+  padding   : 0;
+  background: transparent;
+  position  : absolute;
+  top       : 0;
+  transition: .125ms ease-in-out;
+}
+
+.headerRowContentContainer--header__container--mobile:hover {
+  background: var(--black);
+}
+
+.headerRowBackground--header__widgets-container--mobile {
+  background: inherit;
+}
+
+.headerRowContainer--header__widgets-container--mobile {
+  display: flex;
+  gap    : 1rem;
+}
+
+.headerRowContainer--header__container--mobile {
+  justify-content: space-between;
+  padding        : .5rem;
+}
+
+.headerRowContentContainer--header__widgets-container--mobile {
+  padding     : 0;
+  margin-right: .25rem;
+}
+
+.headerRowContainer--header__container--mobile :global(.vtex-minicart-2-x-openIconContainer),
+.headerRowContainer--header__container--mobile :global(.vtex-button__label) {
+  padding: 0;
+}
+
+
+.headerRowContainer--header__container--mobile :global(.vtex-minicart-2-x-minicartQuantityBadge) {
+  padding: 0;
+}

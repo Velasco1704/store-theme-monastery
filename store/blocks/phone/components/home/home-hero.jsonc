@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#home__hero--phone": {
+    "title": "Phone Home Hero",
+    "children": [
+      "link.product#product-page#home__link"
+    ],
+    "props": {
+      "blockClass": "home__hero--phone",
+      "fullWidth": true
+    }
+  },
+  "link.product#product-page#home__link": {
+    "props": {
+      "href": "/#",
+      "label": "EXPLORE NOW",
+      "displayMode": "button"
+    }
+  }
+}

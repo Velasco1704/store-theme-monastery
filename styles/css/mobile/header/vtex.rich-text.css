@@ -1,0 +1,12 @@
+.container--logo--mobile {
+  color          : #ffffff;
+  text-align     : center;
+  justify-content: center;
+  margin         : 0;
+}
+
+.container--logo--mobile .paragraph {
+  font-weight   : bold;
+  font-size     : 1.25em;
+  letter-spacing: .063rem;
+}

@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#home__releases--table": {
+    "children": [
+      "rich-text#releases-section__title-woman--table"
+    ]
+  },
+
+  "rich-text#releases-section__title-woman--table": {
+    "props": {
+      "text": "NEW RELEASES FOR WOMAN",
+      "textPosition": "CENTER"
+    }
+  }
+}

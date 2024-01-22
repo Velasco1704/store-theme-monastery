@@ -1,0 +1,131 @@
+{
+  "menu#header__menu--desktop": {
+    "children": [
+      "menu-item#department-new-releases",
+      "menu-item#department-men",
+      "menu-item#department-woman",
+      "menu-item#department-caps-hats",
+      "menu-item#department-accessories",
+      "menu-item#department-special-delas"
+    ]
+  },
+  "menu-item#department-new-releases": {
+    "props": {
+      "id": "new-releases",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "New Releases Title",
+        "text": "NEW RELEASES"
+      }
+    }
+  },
+  "menu-item#department-men": {
+    "props": {
+      "id": "men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Men",
+        "text": "MEN"
+      }
+    }
+  },
+  "menu-item#department-woman": {
+    "props": {
+      "id": "woman",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Woman",
+        "text": "WOMAN"
+      }
+    }
+  },
+  "menu-item#department-caps-hats": {
+    "props": {
+      "id": "caps-hats",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Caps and Hats",
+        "text": "CAPS & HATS"
+      }
+    }
+  },
+  "menu-item#department-accessories": {
+    "props": {
+      "id": "accessories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Accessories",
+        "text": "ACCESSORIES"
+      }
+    }
+  },
+  "menu-item#department-special-delas": {
+    "props": {
+      "id": "special-delas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Special Deals",
+        "text": "SPECIAL DEALS"
+      }
+    }
+  }
+}
+// "submenu.accordion#department-new-releases": {
+//   "children": [
+//     "menu#department-new-releases"
+//   ],
+//   "props": {}
+// },
+// "menu#department-new-releases": {
+//   "children": [
+//     "menu-item#category-new-releases-men",
+//     "menu-item#category-new-releases-woman"
+//   ],
+//   "props": {
+//     "orientation": "vertical"
+//   }
+// },
+// "menu-item#category-new-releases-men": {
+//   "props": {
+//     "id": "new-releases-men",
+//     "type": "custom",
+//     "itemProps": {
+//       "type": "internal",
+//       "href": "/#",
+//       "noFollow": true,
+//       "tagTitle": "New Releases Men",
+//       "text": "NEW RELEASES FOR MEN"
+//     }
+//   }
+// },
+// "menu-item#category-new-releases-woman": {
+//   "props": {
+//     "id": "new-releases-woman",
+//     "type": "custom",
+//     "itemProps": {
+//       "type": "internal",
+//       "href": "/#",
+//       "noFollow": true,
+//       "tagTitle": "New Releases Woman",
+//       "text": "NEW RELEASES FOR WOMAN"
+//     }
+//   }
+// }

@@ -1,0 +1,31 @@
+.headerRowContainer--header__widgets-container--desktop {
+  display: flex;
+  gap    : 1rem;
+}
+
+.headerRowContainer--header__container--desktop {
+  justify-content: space-between;
+  position       : absolute;
+  top            : 0;
+  padding        : 1.25rem 1rem;
+  background     : transparent;
+  transition     : .125ms ease-in-out;
+}
+
+.headerRowContainer--header__container--desktop:hover {
+  background: var(--black);
+}
+
+.headerRowContainer--header__container--desktop :global(.vtex-minicart-2-x-openIconContainer),
+.headerRowContainer--header__container--desktop :global(.vtex-button__label) {
+  padding: 0;
+}
+
+.headerRowBackground--header__widgets-container--desktop {
+  background: inherit;
+}
+
+.headerRowContainer--header__container--desktop :global(.vtex-button) {
+  border    : none;
+  background: none;
+}

@@ -1,0 +1,45 @@
+{
+  "header-layout.mobile": {
+    "title": "Header Mobile",
+    "children": [
+      "header-row#header__container--mobile"
+    ]
+  },
+
+  "header-row#header__container--mobile": {
+    "children": [
+      "drawer#header__menu--mobile",
+      // "rich-text#logo--mobile",
+      "header-force-center#header__logo-container",
+      "header-row#header__widgets-container--mobile"
+    ],
+    "props": {
+      "blockClass": "header__container--mobile"
+    }
+  },
+
+  "header-force-center#header__logo-container": {
+    "children": [
+      "rich-text#logo--mobile"
+    ]
+  },
+
+  "rich-text#logo--mobile": {
+    "props": {
+      "text": "MONASTERY",
+      "blockClass": "logo--mobile"
+    }
+  },
+
+  "header-row#header__widgets-container--mobile": {
+    "children": [
+      // "search-bar#header__search",
+      "icon#header__icon-search",
+      "icon#header__login-icon",
+      "minicart.v2#cart--mobile"
+    ],
+    "props": {
+      "blockClass": "header__widgets-container--mobile"
+    }
+  }
+}

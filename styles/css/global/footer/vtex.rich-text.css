@@ -1,0 +1,28 @@
+.paragraph--title-information,
+.paragraph--title-collections {
+    font-weight: bold;
+    font-size  : .9em;
+    color      : var(--white);
+}
+
+.paragraph--footer__community-text {
+    font-weight  : bold;
+    margin-bottom: .5rem;
+    font-size    : .9rem;
+}
+
+.paragraph--footer__connected-text,
+.paragraph--footer__subscribe-text {
+    font-size: .85rem;
+}
+
+.paragraph--footer__community-text,
+.paragraph--footer__connected-text,
+.paragraph--footer__subscribe-text {
+    color: var(--white);
+}
+
+.paragraph--footer__watermark-text {
+    color    : var(--white);
+    font-size: .75em;
+}

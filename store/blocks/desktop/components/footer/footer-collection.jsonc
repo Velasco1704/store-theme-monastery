@@ -1,37 +1,22 @@
 {
-  "disclosure-layout-group#footer__menu--collections": {
+  "flex-layout.col#footer__menu--collections": {
     "children": [
-      "disclosure-layout#collections"
-    ]
-  },
-  "disclosure-layout#collections": {
-    "children": [
-      "disclosure-trigger#collections",
-      "disclosure-content#collections"
-    ]
-  },
-  "disclosure-trigger#collections": {
-    "children": [
-      "rich-text#collections"
+      "rich-text#collections--desktop",
+      "menu#collections--desktop"
     ],
     "props": {
-      "blockClass": "footer__trigger-collections--mobile"
+      "blockClass": "footer__menu--collections"
     }
   },
-  "rich-text#collections": {
+  "rich-text#collections--desktop": {
     "props": {
       "text": "COLLECTIONS",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "title-collections--mobile"
+      "textPosition": "LEFT",
+      "blockClass": "title-collections"
     }
   },
-  "disclosure-content#collections": {
-    "children": [
-      "menu#collections--mobile"
-    ]
-  },
-  "menu#collections--mobile": {
+  "menu#collections--desktop": {
     "children": [
       "menu-item#men-collection",
       "menu-item#woman-collection",
@@ -40,7 +25,7 @@
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass": "footer__collection__menu--mobile"
+      "blockClass": "collection__menu--desktop"
     }
   },
   "menu-item#men-collection": {

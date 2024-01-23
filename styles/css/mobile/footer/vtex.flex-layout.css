@@ -1,35 +1,6 @@
-.flexColChild--footer__information-container :global(.vtex-disclosure-layout-1-x-trigger--footer__trigger-information),
-.flexColChild--footer__collection-container :global(.vtex-disclosure-layout-1-x-trigger--footer__trigger-collections) {
+.flexColChild--footer__information-container--mobile :global(.vtex-disclosure-layout-1-x-trigger--footer__trigger-information--mobile),
+.flexColChild--footer__collection-container--mobile :global(.vtex-disclosure-layout-1-x-trigger--footer__trigger-collections--mobile) {
   background: none;
   border    : none;
   padding   : 0 .5rem;
-}
-
-.flexRow--footer__social-networks-container {
-  margin-top: 1.5rem;
-}
-
-.flexRowContent--footer__social-networks-container {
-  gap: 1rem;
-}
-
-.flexRowContent--footer__social-networks-container {
-  padding: 0 .5rem;
-}
-
-.flexRowContent--footer__social-networks-container :global(.vtex-store-footer-2-x-socialNetworksContainer) {
-  gap: .5rem;
-}
-
-.flexRow--footer__payment-methods {
-  border-top: .063rem solid #3e3e3e;
-}
-
-.flexRowContent--footer__payment-methods {
-  padding: 1rem 0 0 0;
-  height : 10rem;
-}
-
-.flexRowContent--footer__payment-methods :global(.vtex-store-footer-2-x-acceptedPaymentMethodContainer) {
-  justify-content: center;
 }

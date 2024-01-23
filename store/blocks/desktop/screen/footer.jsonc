@@ -1,10 +1,4 @@
 {
-  "footer": {
-    "blocks": [
-      "footer-layout.desktop",
-      "footer-layout.mobile"
-    ]
-  },
   "footer-layout.desktop": {
     "children": [
       // "disclosure-layout-group#footer__menu--group"

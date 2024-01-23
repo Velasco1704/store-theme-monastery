@@ -1,0 +1,43 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer__disclosures-container",
+      "flex-layout.row#footer__social-networks-container",
+      "flex-layout.row#footer__bottom"
+    ]
+  },
+
+  "flex-layout.row#footer__disclosures-container": {
+    "children": [
+      "flex-layout.col#footer__information-container",
+      "flex-layout.col#footer__collection-container"
+    ],
+    "props": {
+      "blockClass": "footer__disclosures-container",
+      "rowGap": 5
+    }
+  },
+
+  "flex-layout.col#footer__information-container": {
+    "children": [
+      "disclosure-layout-group#footer__menu--information"
+    ],
+    "props": {
+      "blockClass": "footer__information-container"
+    }
+  },
+
+  "flex-layout.col#footer__collection-container": {
+    "children": [
+      "disclosure-layout-group#footer__menu--collections"
+    ],
+    "props": {
+      "blockClass": "footer__collection-container"
+    }
+  }
+}

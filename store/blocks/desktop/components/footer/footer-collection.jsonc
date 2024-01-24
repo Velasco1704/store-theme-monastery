@@ -1,0 +1,83 @@
+{
+  "flex-layout.col#footer__menu--collections": {
+    "children": [
+      "rich-text#collections--desktop",
+      "menu#collections--desktop"
+    ],
+    "props": {
+      "blockClass": "footer__menu--collections"
+    }
+  },
+  "rich-text#collections--desktop": {
+    "props": {
+      "text": "COLLECTIONS",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "blockClass": "title-collections"
+    }
+  },
+  "menu#collections--desktop": {
+    "children": [
+      "menu-item#men-collection",
+      "menu-item#woman-collection",
+      "menu-item#caps-collection",
+      "menu-item#accessories-collection"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "collection__menu--desktop"
+    }
+  },
+  "menu-item#men-collection": {
+    "props": {
+      "id": "menu-men-collection",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Men Collection",
+        "text": "MEN COLLECTION"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#woman-collection": {
+    "props": {
+      "id": "menu-woman-collection",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Woman Collection",
+        "text": "WOMAN COLLECTION"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#caps-collection": {
+    "props": {
+      "id": "menu-caps-collection",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Caps Collection",
+        "text": "CAPS COLLECTION"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#accessories-collection": {
+    "props": {
+      "id": "menu-accessories-collection",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Accessories Collection",
+        "text": "ACCESSORIES COLLECTION"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  }
+}

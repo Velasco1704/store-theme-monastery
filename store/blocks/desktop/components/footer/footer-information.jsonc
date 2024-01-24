@@ -1,0 +1,122 @@
+{
+  "flex-layout.col#footer__menu--information": {
+    "children": [
+      "rich-text#information--desktop",
+      "menu#information--desktop"
+    ]
+  },
+  "rich-text#information--desktop": {
+    "props": {
+      "text": "INFORMATION",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "blockClass": "title-information"
+    }
+  },
+  "menu#information--desktop": {
+    "children": [
+      "menu-item#black-friday",
+      "menu-item#FQA",
+      "menu-item#customer-service",
+      "menu-item#shopping-policies",
+      "menu-item#warranties-returns-exchanges",
+      "menu-item#privacy-policy",
+      "menu-item#privacy-statement"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "information__menu--desktop"
+    }
+  },
+  "menu-item#black-friday": {
+    "props": {
+      "id": "menu-black-friday",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Black Friday",
+        "text": "BLACK FRIDAY"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#FQA": {
+    "props": {
+      "id": "menu-fqa",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "FQA",
+        "text": "FQA"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#customer-service": {
+    "props": {
+      "id": "menu-customer-service",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Customer Service",
+        "text": "CUSTOMER SERVICE"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#shopping-policies": {
+    "props": {
+      "id": "menu-shopping-policies",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Shopping Policies",
+        "text": "SHOPPING POLICIES"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#warranties-returns-exchanges": {
+    "props": {
+      "id": "menu-warranties-returns-exchanges",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Warranties Returns Exchanges",
+        "text": "WARRANTIES RETURNS EXCHANGES"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#privacy-policy": {
+    "props": {
+      "id": "menu-privacy-policy",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Privacy Policy",
+        "text": "PRIVACY POLICY"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#privacy-statement": {
+    "props": {
+      "id": "menu-privacy-statement",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Privacy Statement",
+        "text": "PRIVACY STATEMENT"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  }
+}

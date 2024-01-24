@@ -1,0 +1,29 @@
+.flexCol--footer__social-networks-container {
+  margin    : 0 0.5rem;
+  align-self: center;
+}
+
+.flexRow--footer__payment-methods {
+  border-top: .063rem solid #3e3e3e;
+  margin-top: 5rem;
+}
+
+.flexCol--footer__payment-methods {
+  height: 2rem;
+}
+
+.flexColChild--footer__payment-methods {
+  height         : 10rem;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+}
+
+.flexRowContent--footer__payment-methods {
+  padding: 1rem 0 0 0;
+  height : 10rem;
+}
+
+.flexRowContent--footer__payment-methods :global(.vtex-store-footer-2-x-acceptedPaymentMethodContainer) {
+  justify-content: center;
+}

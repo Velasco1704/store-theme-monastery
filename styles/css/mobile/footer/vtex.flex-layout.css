@@ -1,0 +1,6 @@
+.flexColChild--footer__information-container--mobile :global(.vtex-disclosure-layout-1-x-trigger--footer__trigger-information--mobile),
+.flexColChild--footer__collection-container--mobile :global(.vtex-disclosure-layout-1-x-trigger--footer__trigger-collections--mobile) {
+  background: none;
+  border    : none;
+  padding   : 0 .5rem;
+}

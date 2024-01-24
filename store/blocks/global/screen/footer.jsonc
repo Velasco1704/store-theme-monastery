@@ -1,0 +1,8 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.mobile",
+      "footer-layout.desktop"
+    ]
+  }
+}

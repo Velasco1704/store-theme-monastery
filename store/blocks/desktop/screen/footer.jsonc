@@ -1,0 +1,20 @@
+{
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer__disclosures-container--desktop",
+      "flex-layout.row#footer__bottom--desktop"
+    ]
+  },
+  "flex-layout.row#footer__disclosures-container--desktop": {
+    "children": [
+      "flex-layout.col#footer__menu--information",
+      "flex-layout.col#footer__menu--collections",
+      "flex-layout.col#footer__social-networks-container--desktop"
+    ],
+    "props": {
+      "blockClass": "footer__disclosures-container--desktop",
+      "rowGap": 5,
+      "colGap": 10
+    }
+  }
+}

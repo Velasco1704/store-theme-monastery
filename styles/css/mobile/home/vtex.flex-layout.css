@@ -1,5 +1,6 @@
 .flexRowContent--home__info-cards--mobile {
-  gap: 1rem;
+  gap          : 1rem;
+  margin-bottom: 1rem;
 }
 
 .flexCol--info-card-one--mobile,
@@ -21,11 +22,6 @@
   display     : flex;
   justify-self: flex-end;
   height      : auto;
-}
-
-.flexColChild--card__content-one--mobile:last-child,
-.flexColChild--card__content-two--mobile:last-child {
-  height: auto;
 }
 
 .flexColChild--card__content-one--mobile :global(.vtex-store-link-0-x-buttonLink),

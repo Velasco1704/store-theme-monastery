@@ -31,10 +31,10 @@
     font-size     : .9em;
 }
 
-
 .flexRowContent--home__info-cards--desktop {
-    gap    : 1rem;
-    padding: 0 1rem;
+    gap          : 1rem;
+    padding      : 0 1rem;
+    margin-bottom: 1rem;
 }
 
 .flexCol--info-card-one--desktop,
@@ -56,11 +56,6 @@
     display     : flex;
     justify-self: flex-end;
     height      : auto;
-}
-
-.flexColChild--card__content-one--desktop:last-child,
-.flexColChild--card__content-two--desktop:last-child {
-    height: auto;
 }
 
 .flexColChild--card__content-one--desktop :global(.vtex-store-link-0-x-buttonLink),

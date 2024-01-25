@@ -1,0 +1,6 @@
+.wrapper--card__title-men--desktop,
+.wrapper--card__title-woman--desktop {
+  color      : var(--white);
+  font-weight: bold;
+  font-size  : 1.7em;
+}

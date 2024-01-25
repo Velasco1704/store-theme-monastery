@@ -1,0 +1,5 @@
+.wrapper--card__title-men--mobile,
+.wrapper--card__title-woman--mobile {
+  color      : var(--white);
+  font-weight: bold;
+}

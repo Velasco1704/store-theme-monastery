@@ -1,0 +1,6 @@
+.flexRow--home__releases-products--desktop,
+.flexRow--home__releases-products--mobile,
+.flexRow--home__highlights--mobile,
+.flexRow--home__highlights--desktop {
+  padding: 0 1rem;
+}

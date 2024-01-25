@@ -2,7 +2,11 @@
   "flex-layout.row#home__releases-products--desktop": {
     "children": [
       "flex-layout.col#releases__container-products--desktop"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__releases-products--desktop",
+      "fullWidth": true
+    }
   },
 
   "flex-layout.col#releases__container-products--desktop": {

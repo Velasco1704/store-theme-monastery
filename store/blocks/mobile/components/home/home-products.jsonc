@@ -4,7 +4,8 @@
       "flex-layout.col#releases__container-products--mobile"
     ],
     "props": {
-      "blockClass": "home__releases-products--mobile"
+      "blockClass": "home__releases-products--mobile",
+      "fullWidth": true
     }
   },
 

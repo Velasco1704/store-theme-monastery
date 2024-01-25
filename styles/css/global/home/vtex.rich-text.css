@@ -5,7 +5,7 @@
 }
 
 .paragraph--release-men__title {
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 @media (width < 770px) {

@@ -1,0 +1,40 @@
+{
+  "flex-layout.row#home__releases-products--mobile": {
+    "children": [
+      "flex-layout.col#releases__container-products--mobile"
+    ],
+    "props": {
+      "blockClass": "home__releases-products--mobile"
+    }
+  },
+
+  "flex-layout.col#releases__container-products--mobile": {
+    "children": [
+      "rich-text#release-men__title",
+      "list-context.product-list#home__products--mobile"
+    ],
+    "props": {
+      "blockClass": "releases__container-products--mobile"
+    }
+  },
+
+  "rich-text#release-men__title": {
+    "props": {
+      "text": "NEW RELEASES FOR MEN",
+      "textAlignment": "CENTER",
+      "blockClass": "release-men__title"
+    }
+  },
+
+  "list-context.product-list#home__products--mobile": {
+    "blocks": [
+      "product-summary.shelf#home__products"
+    ],
+    "children": [
+      "slider-layout#home__products-container"
+    ],
+    "props": {
+      "maxItems": 3
+    }
+  }
+}

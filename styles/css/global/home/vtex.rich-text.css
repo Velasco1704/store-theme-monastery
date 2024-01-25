@@ -1,0 +1,16 @@
+.container--release-men__title {
+    border-bottom: .063rem solid #dfdfdf;
+    color        : var(--black);
+    font-weight  : bold;
+}
+
+.paragraph--release-men__title {
+    margin-bottom: 1rem;
+}
+
+@media (width < 770px) {
+    .container--release-men__title {
+        display        : flex;
+        justify-content: center;
+    }
+}

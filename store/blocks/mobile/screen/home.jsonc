@@ -3,7 +3,8 @@
     "title": "Section 1 Mobile Home",
     "children": [
       "flex-layout.row#home__releases-products--mobile",
-      "flex-layout.row#home__info-cards--mobile"
+      "flex-layout.row#home__info-cards--mobile",
+      "flex-layout.row#home__highlights--mobile"
     ]
   }
 }

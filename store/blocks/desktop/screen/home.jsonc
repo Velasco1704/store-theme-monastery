@@ -4,7 +4,8 @@
     "children": [
       "flex-layout.row#home__hero--desktop",
       "flex-layout.row#home__releases-products--desktop",
-      "flex-layout.row#home__info-cards--desktop"
+      "flex-layout.row#home__info-cards--desktop",
+      "flex-layout.row#home__highlights--desktop"
     ]
   }
 }

@@ -2,7 +2,8 @@
   "responsive-layout.mobile##home__section-1": {
     "title": "Section 1 Mobile Home",
     "children": [
-      "flex-layout.row#home__releases-products--mobile"
+      "flex-layout.row#home__releases-products--mobile",
+      "flex-layout.row#home__info-cards--mobile"
     ]
   }
 }

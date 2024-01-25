@@ -3,10 +3,9 @@
     "title": "Store home",
     "blocks": [
       "responsive-layout.desktop#home__section-1",
-      "responsive-layout.phone#home__section-1",
       "responsive-layout.tablet#home__section-1",
+      "responsive-layout.phone#home__section-1",
       "responsive-layout.mobile##home__section-1"
-      // "flex-layout.row#home__section--global"
     ]
   }
 }

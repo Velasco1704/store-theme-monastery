@@ -1,0 +1,111 @@
+{
+  "flex-layout.row#home__info-cards--mobile": {
+    "title": "Home Info Cards Container",
+    "children": [
+      "flex-layout.col#info-card-one--mobile",
+      "flex-layout.col#info-card-two--mobile"
+    ],
+    "props": {
+      "blockClass": "home__info-cards--mobile"
+    }
+  },
+
+  "flex-layout.col#info-card-one--mobile": {
+    "title": "Men Card",
+    "children": [
+      "image#card__image-one--mobile",
+      "flex-layout.col#card__content-one--mobile"
+    ],
+    "props": {
+      "blockClass": "info-card-one--mobile"
+    }
+  },
+  "image#card__image-one--mobile": {
+    "title": "Men Image",
+    "props": {
+      "src": "assets/img/men-img.jpg",
+      "blockClass": "card__image-one--mobile"
+    }
+  },
+
+  "flex-layout.col#card__content-one--mobile": {
+    "title": "Men Content Card",
+    "children": [
+      "rich-text#card__title-men--mobile",
+      "link#card__explore-button-men--mobile"
+    ],
+    "props": {
+      "blockClass": "card__content-one--mobile"
+    }
+  },
+
+  "rich-text#card__title-men--mobile": {
+    "title": "Men Title Card",
+    "props": {
+      "text": "FOR MEN",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "card__title-men--mobile"
+    }
+  },
+
+  "link#card__explore-button-men--mobile": {
+    "title": "Men Link card",
+    "props": {
+      "label": "EXPLORE THE SELECTION",
+      "href": "#",
+      "displayMode": "button",
+      "blockClass": "card__explore-button-men--mobile"
+    }
+  },
+
+  "flex-layout.col#info-card-two--mobile": {
+    "title": "Woman Card",
+    "children": [
+      "image#card__image-two--mobile",
+      "flex-layout.col#card__content-two--mobile"
+    ],
+    "props": {
+      "blockClass": "info-card-two--mobile"
+    }
+  },
+
+  "image#card__image-two--mobile": {
+    "title": "Woman Image",
+    "props": {
+      "src": "assets/img/woman-img.jpg",
+      "blockClass": "card__image-two--mobile"
+    }
+  },
+
+  "flex-layout.col#card__content-two--mobile": {
+    "title": "Woman Content Card",
+    "children": [
+      "rich-text#card__title-woman--mobile",
+      "link#card__explore-button-woman--mobile"
+    ],
+    "props": {
+      "blockClass": "card__content-two--mobile"
+    }
+  },
+
+  "rich-text#card__title-woman--mobile": {
+    "title": "Woman Title Card",
+    "props": {
+      "text": "FOR WOMAN",
+      "blockClass": "card__title-woman--mobile",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "link#card__explore-button-woman--mobile": {
+    "title": "Woman Link Card",
+    "props": {
+      "label": "EXPLORE THE SELECTION",
+      "href": "#",
+      "displayMode": "button",
+      "blockClass": "card__explore-button-woman--mobile"
+    }
+  }
+}

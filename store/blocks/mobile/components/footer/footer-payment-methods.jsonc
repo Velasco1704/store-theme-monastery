@@ -1,0 +1,40 @@
+{
+  "flex-layout.row#footer__bottom": {
+    "children": [
+      "flex-layout.col#footer__bottom"
+    ],
+    "props": {
+      "blockClass": "footer__payment-methods",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#footer__bottom": {
+    "children": [
+      "accepted-payment-methods",
+      "rich-text#footer__watermark-text"
+    ],
+    "props": {
+      "blockClass": "footer__payment-methods"
+    }
+  },
+
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": [
+        "mastercard",
+        "visa",
+        "diners club"
+      ]
+    }
+  },
+
+  "rich-text#footer__watermark-text": {
+    "props": {
+      "text": "ALL RIGHTS RESERVED © MONASTERY - 2024",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "footer__watermark-text"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "flex-layout.col#footer__social-networks-container--desktop": {
+    "children": [
+      "rich-text#footer__community-text",
+      "rich-text#footer__connected-text",
+      "social-networks",
+      "rich-text#subscribe-text"
+    ],
+    "props": {
+      "blockClass": "footer__social-networks-container--desktop",
+      "rowGap": 3
+    }
+  },
+
+  "rich-text#footer__community-text": {
+    "props": {
+      "text": "JOIN US OUR COMMUNITY",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "blockClass": "footer__community-text"
+    }
+  },
+
+  "rich-text#footer__connected-text": {
+    "props": {
+      "text": "Stay connected",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "blockClass": "footer__connected-text"
+    }
+  },
+
+  "rich-text#subscribe-text": {
+    "props": {
+      "text": "Subscribe to receive updates",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "blockClass": "footer__subscribe-text"
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/MonasteryCouture/",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://www.instagram.com/monasterycouture/?igshid=YmMyMTA2M2Y%3D",
+          "name": "Instagram"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCqgdbTOYsQ2M5pxRDiX8_mw",
+          "name": "YouTube"
+        }
+      ]
+    }
+  }
+}

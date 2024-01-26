@@ -1,0 +1,5 @@
+.styledLinkContent--footer__menu-item {
+  font-size  : .7em;
+  color      : var(--white);
+  font-weight: 300;
+}

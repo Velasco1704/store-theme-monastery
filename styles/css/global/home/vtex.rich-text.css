@@ -1,0 +1,20 @@
+.container--highlights__title,
+.container--release-men__title {
+    border-bottom: .063rem solid #dfdfdf;
+    color        : var(--black);
+    font-weight  : bold;
+}
+
+.paragraph--release-men__title,
+.paragraph--highlights__title--mobile {
+    margin-bottom: .5rem;
+}
+
+@media (width < 770px) {
+
+    .container--release-men__title,
+    .container--highlights__title {
+        display        : flex;
+        justify-content: center;
+    }
+}

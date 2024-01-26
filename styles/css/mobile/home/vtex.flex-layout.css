@@ -1,0 +1,43 @@
+.flexRowContent--home__info-cards--mobile {
+  gap          : 1rem;
+  margin-bottom: 1rem;
+}
+
+.flexCol--info-card-one--mobile,
+.flexCol--info-card-two--mobile {
+  position: relative;
+}
+
+.flexCol--card__content-one--mobile,
+.flexCol--card__content-two--mobile {
+  height     : 8rem;
+  position   : absolute;
+  bottom     : 3.125rem;
+  left       : 0;
+  align-items: center;
+}
+
+.flexColChild--card__content-one--mobile:first-child,
+.flexColChild--card__content-two--mobile:first-child {
+  display     : flex;
+  justify-self: flex-end;
+  height      : auto;
+}
+
+.flexColChild--card__content-one--mobile :global(.vtex-store-link-0-x-buttonLink),
+.flexColChild--card__content-two--mobile :global(.vtex-store-link-0-x-buttonLink) {
+  width        : auto;
+  height       : auto;
+  background   : transparent;
+  padding      : 0.75rem 0.5rem;
+  border       : 0.063rem solid var(--white);
+  border-radius: 0;
+}
+
+.flexColChild--card__content-one--mobile :global(.vtex-store-link-0-x-label),
+.flexColChild--card__content-two--mobile :global(.vtex-store-link-0-x-label) {
+  padding       : 0;
+  letter-spacing: 0.125rem;
+  font-size     : .9em;
+  font-weight   : bold;
+}

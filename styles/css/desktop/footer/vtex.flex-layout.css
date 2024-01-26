@@ -1,0 +1,28 @@
+.flexRow--footer__disclosures-container--desktop :global(.vtex-store-components-3-x-container) {
+  margin: 0;
+}
+
+.flexRow--footer__disclosures-container--desktop {
+  margin-left    : 1rem;
+  display        : flex;
+  justify-content: flex-start;
+}
+
+.flexRowContent--footer__disclosures-container--desktop {
+  align-items: flex-start;
+}
+
+.flexCol--footer__menu--collections--desktop:first-child {
+  height: 50%;
+}
+
+.flexCol--footer__social-networks-container--desktop {
+  margin    : 0 0.5rem;
+  align-self: center;
+}
+
+.flexCol--footer__social-networks-container--desktop {
+  height     : 50%;
+  display    : flex;
+  align-items: flex-start;
+}

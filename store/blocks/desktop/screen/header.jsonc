@@ -27,7 +27,6 @@
 
   "header-row#header__widgets-container--desktop": {
     "children": [
-      // "search-bar#header__search",
       "icon#header__icon-search",
       "icon#header__login-icon",
       "minicart.v2#cart--desktop"

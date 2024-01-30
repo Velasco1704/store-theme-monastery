@@ -7,14 +7,74 @@
     gap    : 1.5rem;
 }
 
-
 .styledLink {
     font-size  : .9em;
     font-weight: bold;
-    color      : #fff;
+    color      : white;
 }
 
 .styledLinkContainer {
     padding: 0;
     margin : 0;
+}
+
+.submenuContainer {
+    position: absolute;
+    top     : 5rem;
+    left    : 0;
+    right   : 0;
+}
+
+.submenuWrapper {
+    width     : 100%;
+    background: black;
+    padding   : 2rem 4rem;
+    border    : none;
+}
+
+.submenuWrapper :global(.vtex-menu-2-x-submenu) {
+    display       : flex;
+    flex-direction: column;
+    gap           : 1rem;
+}
+
+.submenuWrapper :global(.vtex-menu-2-x-styledLinkContent) {
+    font-size  : .9em;
+    font-weight: 500;
+}
+
+.submenuWrapper :global(.vtex-menu-2-x-styledLinkContent--men__ready-to-wear),
+.submenuWrapper :global(.vtex-menu-2-x-styledLinkContent--men__bottom),
+.submenuWrapper :global(.vtex-menu-2-x-styledLinkContent--men__tracksuits),
+.submenuWrapper :global(.vtex-menu-2-x-styledLinkContent--men__footwear) {
+    font-weight: bold;
+    font-size  : 1em;
+}
+
+.submenuWrapper :global(.vtex-menu-2-x-submenu--submenu__men) {
+    flex-direction : row;
+    justify-content: flex-start;
+}
+
+.menuContainerNav--men__menu {
+    margin: 0;
+}
+
+.menuContainer--men__menu {
+    display       : flex;
+    flex-direction: column;
+}
+
+.menuContainerNav--men__menu:first-child {
+    padding-left: 0;
+}
+
+.menuContainerNav--men__menu:last-child {
+    border-right : none;
+    padding-right: 0;
+}
+
+.menuContainerNav--men__menu {
+    border-right: .063rem solid #4d4d4d;
+    padding     : 0 1.5rem;
 }

@@ -1,0 +1,7 @@
+ :global(.vtex-store-drawer-0-x-drawer--mega-menu__drawer--mobile) {
+   background: black;
+ }
+
+ :global(.vtex-store-drawer-0-x-closeIconButton) {
+   color: white;
+ }

@@ -33,6 +33,7 @@
   "header-row#header__widgets-container--mobile": {
     "children": [
       "icon#header__icon-search",
+      "modal-trigger#header__search-button",
       "icon#header__login-icon",
       "minicart.v2#cart--mobile"
     ],

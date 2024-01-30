@@ -75,6 +75,6 @@
 }
 
 .menuContainerNav--men__menu {
-    border-right: .063rem solid white;
-    padding     : 0 2.5rem;
+    border-right: .063rem solid #4d4d4d;
+    padding     : 0 1.5rem;
 }

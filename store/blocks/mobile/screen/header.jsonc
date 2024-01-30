@@ -9,7 +9,6 @@
   "header-row#header__container--mobile": {
     "children": [
       "drawer#header__menu--mobile",
-      // "rich-text#logo--mobile",
       "header-force-center#header__logo-container",
       "header-row#header__widgets-container--mobile"
     ],
@@ -36,7 +35,7 @@
       // "search-bar#header__search",
       "icon#header__icon-search",
       "icon#header__login-icon",
-      "minicart.v2#cart--mobile"
+      "minicart.v2#cart"
     ],
     "props": {
       "blockClass": "header__widgets-container--mobile"

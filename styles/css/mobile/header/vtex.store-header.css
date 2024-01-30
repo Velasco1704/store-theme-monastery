@@ -6,6 +6,11 @@
   transition: .125ms ease-in-out;
 }
 
+.headerRowContainer--header__widgets-container--mobile :global(.vtex-modal-layout-0-x-triggerContainer) {
+  display: flex;
+  cursor : pointer;
+}
+
 .headerRowContentContainer--header__container--mobile:hover {
   background: var(--black);
 }

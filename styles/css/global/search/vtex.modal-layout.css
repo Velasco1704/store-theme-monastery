@@ -1,0 +1,11 @@
+.modal--header__modal-search :global(.vtex-modal-layout-0-x-paper--header__modal-search) {
+  background: black;
+}
+
+.headerContainer {
+  border: none;
+}
+
+.closeButton {
+  color: white;
+}

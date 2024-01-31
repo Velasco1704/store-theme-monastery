@@ -3,6 +3,11 @@
   gap    : 1rem;
 }
 
+.headerRowContainer--header__widgets-container--desktop :global(.vtex-modal-layout-0-x-triggerContainer) {
+  display: flex;
+  cursor : pointer;
+}
+
 .headerRowContainer--header__container--desktop {
   justify-content: space-between;
   position       : absolute;

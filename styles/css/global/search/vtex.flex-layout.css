@@ -1,0 +1,55 @@
+.flexColChild--search__content {
+  width          : 100%;
+  padding        : 0 2rem;
+  display        : flex;
+  justify-content: center;
+}
+
+.flexColChild--search__content :global(.vtex-input-prefix__group) {
+  border-radius: 2rem;
+  padding      : 0 1rem;
+  height       : auto;
+  width        : auto;
+}
+
+.flexColChild--search__content :global(.vtex-styleguide-9-x-input) {
+  padding   : 1rem 1rem;
+  order     : 2;
+  background: black;
+  color     : white;
+}
+
+.flexColChild--search__content :global(.vtex-input__suffix) {
+  background: black;
+  padding   : 0;
+}
+
+.flexColChild--search__content :global(.vtex-store-components-3-x-searchBarIcon),
+.flexColChild--search__content :global(.vtex-store-components-3-x-closeIcon) {
+  color  : white;
+  padding: 0;
+}
+
+.flexColChild--search__content :global(.vtex-search-2-x-biggy-autocomplete) {
+  background: black;
+}
+
+.flexColChild--search__content :global(.vtex-search-2-x-itemListTitle),
+.flexColChild--search__content :global(.vtex-search-2-x-itemListPrefix),
+.flexColChild--search__content :global(.vtex-search-2-x-itemListLinkTitle),
+.flexColChild--search__content :global(.vtex-search-2-x-itemListSubItemLink),
+.flexColChild--search__content :global(.vtex-search-2-x-tileListTitle),
+.flexColChild--search__content :global(.vtex-search-2-x-information),
+.flexColChild--search__content :global(.vtex-search-2-x-sellingPriceValue),
+.flexColChild--search__content :global(.vtex-search-2-x-productBrand),
+.flexColChild--search__content :global(.vtex-product-summary-2-x-productBrand) {
+  color: white;
+}
+
+.flexColChild--search__content :global(.vtex-search-2-x-tileList) {
+  border: none;
+}
+
+.flexColChild--search__content :global(.vtex-search-2-x-tileListList) {
+  gap: 1rem;
+}

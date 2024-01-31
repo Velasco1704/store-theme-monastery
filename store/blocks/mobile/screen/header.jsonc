@@ -34,7 +34,7 @@
     "children": [
       "modal-trigger#header__search-button",
       "icon#header__login-icon",
-      "minicart.v2#cart--mobile"
+      "minicart.v2#cart"
     ],
     "props": {
       "blockClass": "header__widgets-container--mobile"

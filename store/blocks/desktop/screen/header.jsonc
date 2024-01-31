@@ -29,7 +29,7 @@
     "children": [
       "modal-trigger#header__search-button",
       "icon#header__login-icon",
-      "minicart.v2#cart--desktop"
+      "minicart.v2#cart"
     ],
     "props": {
       "blockClass": "header__widgets-container--desktop"

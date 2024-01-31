@@ -181,5 +181,46 @@
     "props": {
       "blockClass": "minicart__footer"
     }
+  },
+
+  "minicart-summary": {
+    "blocks": [
+      "checkout-summary"
+    ]
+  },
+
+  "checkout-summary": {
+    "children": [
+      "summary-totalizers",
+      "rich-text#minicart__footer--taxes",
+      "link#minicart__link-to-cart",
+      "summary-coupon"
+    ]
+  },
+
+  "summary-totalizers": {
+    "props": {
+      "showTotal": false,
+      "showDeliveryTotal": false,
+      "showOriginalTotal": false
+    }
+  },
+
+  "rich-text#minicart__footer--taxes": {
+    "props": {
+      "text": "*Impuestos, envío y descuentos calculados en el checkout.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "minicart__footer--taxes"
+    }
+  },
+
+  "link#minicart__link-to-cart": {
+    "props": {
+      "label": "IR AL CARRITO",
+      "href": "/#",
+      "displayMode": "button",
+      "blockClass": "minicart__link-to-cart"
+    }
   }
 }

@@ -1,0 +1,81 @@
+.flexColChild--footer__social-networks-container--desktop :global(.vtex-store-components-3-x-container--footer__newsletter),
+.flexColChild--footer__social-networks-container :global(.vtex-store-components-3-x-container--footer__newsletter) {
+  margin-top: .5rem;
+  padding   : 0;
+}
+
+.flexColChild--footer__social-networks-container--desktop :global(.vtex-store-components-3-x-form--footer__newsletter),
+.flexColChild--footer__social-networks-container :global(.vtex-store-components-3-x-form--footer__newsletter) {
+  padding: 0;
+  margin : 0;
+}
+
+.flexColChild--footer__social-networks-container--desktop :global(.vtex-store-components-3-x-form--footer__newsletter),
+.flexColChild--footer__social-networks-container :global(.vtex-store-components-3-x-form--footer__newsletter) {
+  display        : flex;
+  justify-content: flex-start;
+  flex-direction : column;
+}
+
+.flexColChild--footer__social-networks-container--desktop :global(.vtex-store-components-3-x-inputGroup--footer__newsletter),
+.flexColChild--footer__social-networks-container :global(.vtex-store-components-3-x-inputGroup--footer__newsletter) {
+  padding: 0;
+  display: flex;
+  gap    : .125rem;
+}
+
+.flexColChild--footer__social-networks-container--desktop :global(.vtex-store-components-3-x-inputGroup--footer__newsletter) :global(.vtex-input),
+.flexColChild--footer__social-networks-container :global(.vtex-store-components-3-x-inputGroup--footer__newsletter) :global(.vtex-input) {
+  max-width: 15rem;
+}
+
+.flexColChild--footer__social-networks-container--desktop :global(.vtex-input-prefix__group),
+.flexColChild--footer__social-networks-container :global(.vtex-input-prefix__group) {
+  border       : none;
+  border-radius: 0;
+}
+
+.flexColChild--footer__social-networks-container--desktop :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input),
+.flexColChild--footer__social-networks-container :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  border-radius: 0;
+}
+
+.flexColChild--footer__social-networks-container--desktop :global(.vtex-store-components-3-x-buttonContainer--footer__newsletter),
+.flexColChild--footer__social-networks-container :global(.vtex-store-components-3-x-buttonContainer--footer__newsletter) {
+  max-width: 6.5rem;
+  width    : 100%;
+}
+
+.flexColChild--footer__social-networks-container--desktop :global(.vtex-store-components-3-x-buttonContainer--footer__newsletter) :global(.vtex-button),
+.flexColChild--footer__social-networks-container :global(.vtex-store-components-3-x-buttonContainer--footer__newsletter) :global(.vtex-button) {
+  width          : 100%;
+  border-radius  : 0;
+  border         : none;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  background     : white;
+}
+
+.flexColChild--footer__social-networks-container--desktop :global(.vtex-store-components-3-x-buttonContainer--footer__newsletter) :global(.vtex-button) :global(.vtex-button__label),
+.flexColChild--footer__social-networks-container :global(.vtex-store-components-3-x-buttonContainer--footer__newsletter) :global(.vtex-button) :global(.vtex-button__label) {
+  color      : black;
+  padding    : 0 !important;
+  margin     : 0;
+  font-size  : .9em;
+  font-weight: bold;
+  align-items: center;
+}
+
+.flexColChild--footer__social-networks-container--desktop :global(.vtex-store-components-3-x-buttonContainer--footer__newsletter),
+.flexColChild--footer__social-networks-container :global(.vtex-store-components-3-x-buttonContainer--footer__newsletter) {
+  padding: 0;
+}
+
+.flexColChild--footer__social-networks-container--desktop :global(.vtex-store-components-3-x-label--footer__newsletter),
+.flexColChild--footer__social-networks-container :global(.vtex-store-components-3-x-label--footer__newsletter) {
+  text-align   : start;
+  font-size    : 1em;
+  margin-bottom: .5rem;
+  color        : white;
+}

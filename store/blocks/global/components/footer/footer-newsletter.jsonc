@@ -1,0 +1,9 @@
+{
+  "newsletter": {
+    "props": {
+      "label": "Subscribe to receive updates",
+      "placeholder": "Correo Electronico",
+      "blockClass": "footer__newsletter"
+    }
+  }
+}

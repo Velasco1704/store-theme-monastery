@@ -27,7 +27,7 @@
 
 .submenuWrapper {
     width     : 100%;
-    background: black;
+    background: rgb(0, 0, 0, .935);
     padding   : 2rem 4rem;
     border    : none;
 }

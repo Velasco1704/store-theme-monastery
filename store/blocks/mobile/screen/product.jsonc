@@ -1,0 +1,8 @@
+{
+  "responsive-layout.mobile#product": {
+    "children": [
+      "flex-layout.row#product__info--mobile",
+      "flex-layout.row#product__tabs--mobile"
+    ]
+  }
+}

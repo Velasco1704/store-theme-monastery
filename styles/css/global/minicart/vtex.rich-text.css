@@ -8,3 +8,9 @@
   color        : black;
   margin-bottom: 1rem;
 }
+
+.paragraph--minicart__empty {
+  font-weight: bold;
+  font-size  : .8em;
+  color      : black;
+}

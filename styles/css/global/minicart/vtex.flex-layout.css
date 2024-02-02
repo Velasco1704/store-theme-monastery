@@ -19,6 +19,31 @@
     padding-top: 1rem;
   }
 
+  :global(.vtex-flex-layout-0-x-flexCol--minicart__empty) {
+    display        : flex;
+    justify-content: center;
+    gap            : 1rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--minicart__empty) {
+    display        : flex;
+    justify-content: center;
+  }
+
+  :global(.vtex-minicart-2-x-minicartEmptyStateContainer) {
+    height    : auto;
+    margin-top: 5rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--minicart__empty) :global(.vtex-store-link-0-x-buttonLink--minicart__empty) {
+    background   : black;
+    color        : white;
+    font-size    : .9em;
+    font-weight  : bold;
+    border       : none;
+    border-radius: 0;
+  }
+
   .closeIconContainer {
     background: black;
   }
@@ -115,6 +140,13 @@
 
   .flexColChild--minicart__footer :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
     font-weight: bold;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-store-link-0-x-label--minicart__link-to-cart) {
+    height         : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
   }
 
   .flexColChild--minicart__footer :global(.vtex-store-link-0-x-buttonLink--minicart__link-to-cart) {

@@ -2,7 +2,7 @@
   "responsive-layout.desktop#product": {
     "children": [
       "flex-layout.row#product__info--desktop",
-      "flex-layout.row#product__tabs--desktop"
+      "flex-layout.row#product__related-products--desktop"
     ]
   }
 }

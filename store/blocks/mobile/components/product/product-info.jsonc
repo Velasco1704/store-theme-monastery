@@ -13,8 +13,17 @@
   "flex-layout.col#product__info-image--mobile": {
     "title": "Imagen del Producto",
     "children": [
-      "product-images"
-    ]
+      "product-images#product__info-image--mobile"
+    ],
+    "props": {
+      "blockClass": "product__info-image--mobile"
+    }
+  },
+
+  "product-images#product__info-image--mobile": {
+    "props": {
+      "maxHeight": 700
+    }
   },
 
   "flex-layout.col#product__info-data--mobile": {

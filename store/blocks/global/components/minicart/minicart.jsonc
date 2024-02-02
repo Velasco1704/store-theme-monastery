@@ -17,21 +17,6 @@
     }
   },
 
-  "icon#header__cart-icon--black": {
-    "props": {
-      "id": "hpa-cart--black",
-      "size": 100
-    }
-  },
-
-  "rich-text#minicart__empty": {
-    "props": {
-      "text": "TU CARRITO DE COMPRAS ESTÁ VACÍO.",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
-  },
-
   "minicart-base-content": {
     "blocks": [
       "minicart-empty-state"
@@ -51,14 +36,46 @@
   "flex-layout.row#minicart__empty": {
     "children": [
       "flex-layout.col#minicart__empty"
-    ]
+    ],
+    "props": {
+      "blockClass": "minicart__empty"
+    }
   },
 
   "flex-layout.col#minicart__empty": {
     "children": [
       "icon#header__cart-icon--black",
-      "rich-text#minicart__empty"
-    ]
+      "rich-text#minicart__empty",
+      "link#minicart__empty"
+    ],
+    "props": {
+      "blockClass": "minicart__empty"
+    }
+  },
+
+  "icon#header__cart-icon--black": {
+    "props": {
+      "id": "hpa-cart--black",
+      "size": 50
+    }
+  },
+
+  "rich-text#minicart__empty": {
+    "props": {
+      "text": "TU CARRITO DE COMPRAS ESTÁ VACÍO.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "minicart__empty"
+    }
+  },
+
+  "link#minicart__empty": {
+    "props": {
+      "label": "SEGUIR COMPRANDO",
+      "href": "#",
+      "displayMode": "button",
+      "blockClass": "minicart__empty"
+    }
   },
 
   "minicart-product-list": {

@@ -1,0 +1,80 @@
+{
+  "modal-trigger#header__search-button": {
+    "children": [
+      "icon#header__icon-search",
+      "modal-layout#header__modal-search"
+    ]
+  },
+
+  "icon#header__icon-search": {
+    "props": {
+      "id": "hpa-search",
+      "size": 16
+    }
+  },
+
+  "modal-layout#header__modal-search": {
+    "title": "Modal Search",
+    "children": [
+      "modal-header",
+      "flex-layout.row#search__container"
+    ],
+    "props": {
+      "blockClass": "header__modal-search",
+      "fullScreen": true
+    }
+  },
+
+  "modal-header": {
+    "props": {
+      "showCloseButton": true
+    }
+  },
+
+  "flex-layout.row#search__container": {
+    "title": "Search Container",
+    "children": [
+      "flex-layout.col#search__content"
+    ],
+    "props": {
+      "blockClass": "search__container",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#search__content": {
+    "title": "Search Content",
+    "children": [
+      "search-bar",
+      "search-content"
+    ],
+    "props": {
+      "blockClass": "search__content",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "containerMode": "container",
+      "placeholder": "Busca escribiendo palabra clave"
+    }
+  },
+
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary.shelf#search__products"
+    ]
+  },
+  "product-summary.shelf#search__products": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-selling-price"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+.flexRow--mega-menu__container--mobile {
+  width  : 100%;
+  padding: 0 1rem;
+}
+
+.flexColChild--mega-menu__container--mobile :global(.vtex-mega-menu-2-x-departmentsTitle) {
+  display: none;
+}
+
+.flexColChild--mega-menu__container--mobile :global(.vtex-mega-menu-2-x-menuContainerVertical) {
+  margin: 0;
+  width : 100%;
+}
+
+.flexColChild--mega-menu__container--mobile :global(.vtex-mega-menu-2-x-menuItemVertical) {
+  border-top   : 0;
+  border-bottom: .063rem solid rgb(155, 155, 155);
+  width        : 100%;
+}
+
+.flexColChild--mega-menu__container--mobile :global(.vtex-mega-menu-2-x-menuContainerVertical) :global(.vtex-mega-menu-2-x-styledLinkText) {
+  color      : white;
+  font-weight: bold;
+}
+
+.flexColChild--mega-menu__container--mobile :global(.vtex-mega-menu-2-x-submenuContainerVertical),
+.flexColChild--mega-menu__container--mobile :global(.vtex-mega-menu-2-x-submenuItemVertical) {
+  background: black;
+}
+
+.flexColChild--mega-menu__container--mobile :global(.vtex-mega-menu-2-x-submenuItemVertical--isOpen) {
+  padding-bottom: 1rem;
+}
+
+.flexColChild--mega-menu__container--mobile :global(.vtex-mega-menu-2-x-collapsibleHeaderText),
+.flexColChild--mega-menu__container--mobile :global(.vtex-mega-menu-2-x-submenuContainerTitle) {
+  color: white;
+}
+
+.flexColChild--mega-menu__container--mobile :global(.vtex-mega-menu-2-x-submenuItemVertical) :global(.vtex-mega-menu-2-x-collapsibleHeaderText) {
+  font-weight: bold;
+}
+
+.flexColChild--mega-menu__container--mobile :global(.vtex-mega-menu-2-x-submenuItemVertical) :global(.vtex-mega-menu-2-x-styledLinkText) {
+  color    : white;
+  margin   : .5rem 0;
+  font-size: .7em;
+}
+
+.flexColChild--mega-menu__container--mobile :global(.vtex-mega-menu-2-x-seeAllLinkContainer) {
+  display: none;
+}

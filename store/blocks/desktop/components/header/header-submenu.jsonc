@@ -1,0 +1,422 @@
+{
+  //New releases
+  "submenu#releases__submenu--desktop": {
+    "children": [
+      "menu-item#releases__men--desktop",
+      "menu-item#releases__woman--desktop"
+    ]
+  },
+  "menu-item#releases__men--desktop": {
+    "props": {
+      "id": "new-releases-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "New Releases For Men",
+        "text": "NEW RELEASES FOR MEN"
+      }
+    }
+  },
+  "menu-item#releases__woman--desktop": {
+    "props": {
+      "id": "new-releases-woman",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "New Releases Woman",
+        "text": "NEW RELEASES FOR WOMAN"
+      }
+    }
+  },
+  //Men submenu
+  "submenu#men__submenu--desktop": {
+    "children": [
+      "menu#mem__ready-to-wear--desktop",
+      "menu#mem__bottom--desktop",
+      "menu#mem__tracksuits--desktop",
+      "menu#mem__footwear--desktop"
+    ],
+    "props": {
+      "blockClass": "submenu__men"
+    }
+  },
+
+  "menu#mem__ready-to-wear--desktop": {
+    "children": [
+      "menu-item#men__ready-to-wear--desktop",
+      "menu-item#men__view-all-rtw--desktop",
+      "menu-item#men__t-shirts--desktop",
+      "menu-item#men__polo-shirts--desktop",
+      "menu-item#men__oversize-t-shirts--desktop",
+      "menu-item#men__monastery-packs--desktop",
+      "menu-item#men__long-sleeve-t-shirts--desktop",
+      "menu-item#men__hoodies--desktop",
+      "menu-item#men__sweatshirts--desktop",
+      "menu-item#men__windbreakers--desktop",
+      "menu-item#men__bomber-jacket--desktop"
+    ],
+    "props": {
+      "blockClass": "men__menu"
+    }
+  },
+
+  "menu-item#men__ready-to-wear--desktop": {
+    "props": {
+      "id": "ready-to-wear-men",
+      "type": "custom",
+      "blockClass": "men__ready-to-wear",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Ready to wear Men",
+        "text": "READY TO WEAR"
+      }
+    }
+  },
+  "menu-item#men__view-all-rtw--desktop": {
+    "props": {
+      "id": "view-all-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "View All",
+        "text": "VIEW ALL"
+      }
+    }
+  },
+  "menu-item#men__t-shirts--desktop": {
+    "props": {
+      "id": "t-shirts-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "T Shirts",
+        "text": "T-SHIRTS"
+      }
+    }
+  },
+  "menu-item#men__polo-shirts--desktop": {
+    "props": {
+      "id": "polo-shirts-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Polo Shirts",
+        "text": "POLO SHIRTS"
+      }
+    }
+  },
+  "menu-item#men__oversize-t-shirts--desktop": {
+    "props": {
+      "id": "oversize-t-shirts-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Oversize T Shirts",
+        "text": "OVERSIZE T-SHIRTS"
+      }
+    }
+  },
+  "menu-item#men__monastery-packs--desktop": {
+    "props": {
+      "id": "monastery-packs-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Monastery Packs",
+        "text": "MONASTERY PACKS"
+      }
+    }
+  },
+  "menu-item#men__long-sleeve-t-shirts--desktop": {
+    "props": {
+      "id": "long-sleeve-t-shirts-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Long Sleeve T Shirt",
+        "text": "LONG SLEEVE T-SHIRTS"
+      }
+    }
+  },
+  "menu-item#men__hoodies--desktop": {
+    "props": {
+      "id": "hoodies-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Hoodies",
+        "text": "HOODIES"
+      }
+    }
+  },
+  "menu-item#men__sweatshirts--desktop": {
+    "props": {
+      "id": "sweatshirts-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Monastery Packs",
+        "text": "SWEATSHIRTS"
+      }
+    }
+  },
+  "menu-item#men__windbreakers--desktop": {
+    "props": {
+      "id": "windbreakers-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Windbreakers",
+        "text": "WINDBREAKERS"
+      }
+    }
+  },
+  "menu-item#men__bomber-jacket--desktop": {
+    "props": {
+      "id": "bomber-jacket-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Bomber jacket",
+        "text": "BOMBER JACKET"
+      }
+    }
+  },
+
+  "menu#mem__bottom--desktop": {
+    "children": [
+      "menu-item#men__bottom--desktop",
+      "menu-item#men__jeans--desktop",
+      "menu-item#men__joggers--desktop",
+      "menu-item#men__demin-shorts--desktop",
+      "menu-item#men__swim-shorts--desktop",
+      "menu-item#men__underwear--desktop"
+    ],
+    "props": {
+      "blockClass": "men__menu"
+    }
+  },
+
+  "menu-item#men__bottom--desktop": {
+    "props": {
+      "id": "bottom-men",
+      "type": "custom",
+      "blockClass": "men__bottom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Bottom Men",
+        "text": "BOTTOM"
+      }
+    }
+  },
+  "menu-item#men__jeans--desktop": {
+    "props": {
+      "id": "jeans-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Jeans Men",
+        "text": "JENAS"
+      }
+    }
+  },
+  "menu-item#men__joggers--desktop": {
+    "props": {
+      "id": "jogger-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Joggers",
+        "text": "JOGGERS"
+      }
+    }
+  },
+  "menu-item#men__demin-shorts--desktop": {
+    "props": {
+      "id": "demin-shorts-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Demin Shorts",
+        "text": "DEMIN SHORT"
+      }
+    }
+  },
+  "menu-item#men__swim-shorts--desktop": {
+    "props": {
+      "id": "swim-shorts",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Swim Shorts",
+        "text": "SWIM SHORTS"
+      }
+    }
+  },
+  "menu-item#men__underwear--desktop": {
+    "props": {
+      "id": "underwear-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": " Underwear Men",
+        "text": "UNDERWEAR"
+      }
+    }
+  },
+
+  "menu#mem__tracksuits--desktop": {
+    "children": [
+      "menu-item#men__tracksuits--desktop",
+      "menu-item#men__view-all-t-suits--desktop",
+      "menu-item#men__sport-jacket--desktop",
+      "menu-item#men__sport-trousers--desktop"
+    ],
+    "props": {
+      "blockClass": "men__menu"
+    }
+  },
+
+  "menu-item#men__tracksuits--desktop": {
+    "props": {
+      "id": "tracksuits-men",
+      "type": "custom",
+      "blockClass": "men__tracksuits",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Tracksuits Men",
+        "text": "TRACKSUITS"
+      }
+    }
+  },
+  "menu-item#men__view-all-t-suits--desktop": {
+    "props": {
+      "id": "view-all-tracksuits-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "View All Tracksuits",
+        "text": "VIEW ALL"
+      }
+    }
+  },
+  "menu-item#men__sport-jacket--desktop": {
+    "props": {
+      "id": "sport-jacket-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Sport Jacket",
+        "text": "SPORT JACKET"
+      }
+    }
+  },
+  "menu-item#men__sport-trousers--desktop": {
+    "props": {
+      "id": "sport-trousers-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Sport trousers",
+        "text": "SPORT TROUSERS"
+      }
+    }
+  },
+
+  "menu#mem__footwear--desktop": {
+    "children": [
+      "menu-item#men__footwear--desktop",
+      "menu-item#men__sneakers--desktop",
+      "menu-item#men__sandals--desktop"
+    ],
+    "props": {
+      "blockClass": "men__menu"
+    }
+  },
+  "menu-item#men__footwear--desktop": {
+    "props": {
+      "id": "footwear-men",
+      "type": "custom",
+      "blockClass": "men__footwear",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Footwear Men",
+        "text": "FOOTWEAR"
+      }
+    }
+  },
+  "menu-item#men__sneakers--desktop": {
+    "props": {
+      "id": "sneakers-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Sneakers Men",
+        "text": "SNEAKERS"
+      }
+    }
+  },
+  "menu-item#men__sandals--desktop": {
+    "props": {
+      "id": "sandals-men",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Sandals Men",
+        "text": "SANDALS"
+      }
+    }
+  }
+}

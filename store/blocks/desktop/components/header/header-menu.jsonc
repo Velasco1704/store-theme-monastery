@@ -17,10 +17,13 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "New Releases Title",
+        "tagTitle": "New Releases",
         "text": "NEW RELEASES"
       }
-    }
+    },
+    "blocks": [
+      "submenu#releases__submenu--desktop"
+    ]
   },
   "menu-item#department-men": {
     "props": {
@@ -33,7 +36,10 @@
         "tagTitle": "Men",
         "text": "MEN"
       }
-    }
+    },
+    "blocks": [
+      "submenu#men__submenu--desktop"
+    ]
   },
   "menu-item#department-woman": {
     "props": {
@@ -46,7 +52,10 @@
         "tagTitle": "Woman",
         "text": "WOMAN"
       }
-    }
+    },
+    "blocks": [
+      "submenu#men__submenu--desktop"
+    ]
   },
   "menu-item#department-caps-hats": {
     "props": {
@@ -59,7 +68,10 @@
         "tagTitle": "Caps and Hats",
         "text": "CAPS & HATS"
       }
-    }
+    },
+    "blocks": [
+      "submenu#men__submenu--desktop"
+    ]
   },
   "menu-item#department-accessories": {
     "props": {
@@ -72,7 +84,10 @@
         "tagTitle": "Accessories",
         "text": "ACCESSORIES"
       }
-    }
+    },
+    "blocks": [
+      "submenu#men__submenu--desktop"
+    ]
   },
   "menu-item#department-special-delas": {
     "props": {
@@ -85,47 +100,9 @@
         "tagTitle": "Special Deals",
         "text": "SPECIAL DEALS"
       }
-    }
+    },
+    "blocks": [
+      "submenu#men__submenu--desktop"
+    ]
   }
 }
-// "submenu.accordion#department-new-releases": {
-//   "children": [
-//     "menu#department-new-releases"
-//   ],
-//   "props": {}
-// },
-// "menu#department-new-releases": {
-//   "children": [
-//     "menu-item#category-new-releases-men",
-//     "menu-item#category-new-releases-woman"
-//   ],
-//   "props": {
-//     "orientation": "vertical"
-//   }
-// },
-// "menu-item#category-new-releases-men": {
-//   "props": {
-//     "id": "new-releases-men",
-//     "type": "custom",
-//     "itemProps": {
-//       "type": "internal",
-//       "href": "/#",
-//       "noFollow": true,
-//       "tagTitle": "New Releases Men",
-//       "text": "NEW RELEASES FOR MEN"
-//     }
-//   }
-// },
-// "menu-item#category-new-releases-woman": {
-//   "props": {
-//     "id": "new-releases-woman",
-//     "type": "custom",
-//     "itemProps": {
-//       "type": "internal",
-//       "href": "/#",
-//       "noFollow": true,
-//       "tagTitle": "New Releases Woman",
-//       "text": "NEW RELEASES FOR WOMAN"
-//     }
-//   }
-// }

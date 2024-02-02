@@ -4,7 +4,7 @@
       "rich-text#footer__community-text",
       "rich-text#footer__connected-text",
       "social-networks",
-      "rich-text#subscribe-text"
+      "newsletter"
     ],
     "props": {
       "blockClass": "footer__social-networks-container",
@@ -27,15 +27,6 @@
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
       "blockClass": "footer__connected-text"
-    }
-  },
-
-  "rich-text#subscribe-text": {
-    "props": {
-      "text": "Subscribe to receive updates",
-      "textAlignment": "CENTER",
-      "textPosition": "LEFT",
-      "blockClass": "footer__subscribe-text"
     }
   },
 

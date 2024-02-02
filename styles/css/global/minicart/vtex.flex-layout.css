@@ -1,0 +1,286 @@
+  :global(.vtex-minicart-2-x-overlay--visible) {
+    background: black;
+  }
+
+  :global(.vtex-minicart-2-x-minicartTitle) {
+    display: none;
+  }
+
+  :global(.vtex-minicart-2-x-closeIconContainer) {
+    background     : black;
+    justify-content: flex-end;
+  }
+
+  :global(.vtex-minicart-2-x-closeIconButton) {
+    color: white;
+  }
+
+  :global(.vtex-minicart-2-x-minicartProductListContainer) {
+    padding-top: 1rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--minicart__empty) {
+    display        : flex;
+    justify-content: center;
+    gap            : 1rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--minicart__empty) {
+    display        : flex;
+    justify-content: center;
+  }
+
+  :global(.vtex-minicart-2-x-minicartEmptyStateContainer) {
+    height    : auto;
+    margin-top: 5rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--minicart__empty) :global(.vtex-store-link-0-x-buttonLink--minicart__empty) {
+    background   : black;
+    color        : white;
+    font-size    : .9em;
+    font-weight  : bold;
+    border       : none;
+    border-radius: 0;
+  }
+
+  .closeIconContainer {
+    background: black;
+  }
+
+  .flexRow--minicart__row--mobile {
+    border-bottom: .063rem solid #cecece;
+    margin-bottom: 2.5rem;
+  }
+
+  .flexRowContent--minicart__row--price {
+    height         : auto;
+    align-items    : center;
+    justify-content: flex-end;
+  }
+
+  .flexRowContent--minicart__row--price :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: flex-end;
+    padding        : .5rem .45rem;
+  }
+
+  .flexRowContent--minicart__row--price :global(.vtex-product-list-0-x-price) {
+    width: auto;
+  }
+
+  .flexColChild--minicart__col--info :global(.vtex-product-list-0-x-productName) {
+    color      : black;
+    font-weight: bold;
+  }
+
+  .flexColChild--minicart__col--info {
+    display        : flex;
+    justify-content: flex-start;
+  }
+
+  .flexColChild--minicart__col--info :global(.vtex-product-list-0-x-quantitySelectorContainer) {
+    width          : 4rem;
+    height         : 1.5rem;
+    display        : flex;
+    justify-content: center;
+  }
+
+  .flexColChild--minicart__col--info :global(.vtex-product-list-0-x-quantitySelectorWrapper) {
+    width: 100%;
+  }
+
+  .flexColChild--minicart__col--info :global(.vtex-product-list-0-x-quantitySelectorButton) {
+    padding   : 0 .25rem;
+    border    : none;
+    background: black;
+    color     : #696969;
+  }
+
+  .flexColChild--minicart__col--info :global(.vtex-product-list-0-x-inputContainer) {
+    width : 100%;
+    border: none;
+  }
+
+  .flexRowContent--minicart__row--remove {
+    display    : flex;
+    align-items: center;
+    width      : 3.2rem;
+  }
+
+  .flexRowContent--minicart__row--price :global(.vtex-product-list-0-x-price) {
+    font-weight: 300;
+  }
+
+  .flexRow--minicart__footer {
+    padding: 1rem;
+  }
+
+  .flexColChild--minicart__footer {
+    padding: .25rem .5rem;
+  }
+
+  .flexRowContent--minicart__footer {
+    background: #5c5c5c1a;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-checkout-summary-0-x-summaryTitle) {
+    display: none;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
+    margin        : 0 0 .75rem 0;
+    padding-bottom: .5rem;
+    border-bottom : .063rem solid #343434;
+    color         : black;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+    font-weight: 300;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+    font-weight: bold;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-store-link-0-x-label--minicart__link-to-cart) {
+    height         : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-store-link-0-x-buttonLink--minicart__link-to-cart) {
+    border       : none;
+    border-radius: 0;
+    background   : white;
+    color        : black;
+    font-weight  : bold;
+    width        : 100%;
+    margin-bottom: 1rem;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button) {
+    border       : none;
+    border-radius: 0;
+    background   : black;
+    color        : white;
+    font-weight  : bold;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-store-link-0-x-buttonLink--minicart__link-to-cart),
+  .flexColChild--minicart__footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button) {
+    padding        : 0 !important;
+    position       : relative;
+    overflow       : hidden;
+    height         : 3rem;
+    padding        : 0 2rem;
+    background-size: 400%;
+    cursor         : pointer;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-store-link-0-x-buttonLink--minicart__link-to-cart):hover::before,
+  .flexColChild--minicart__footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button):hover::before {
+    transform: scaleX(1);
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-store-link-0-x-buttonLink--minicart__link-to-cart)::before,
+  .flexColChild--minicart__footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button)::before {
+    content         : "";
+    position        : absolute;
+    top             : 0;
+    left            : 0;
+    transform       : scaleX(0);
+    transform-origin: 100% 50%;
+    width           : 100%;
+    height          : inherit;
+    border-radius   : inherit;
+    transition      : .125s ease-in-out;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button)::before {
+    background: white;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-store-link-0-x-buttonLink--minicart__link-to-cart)::before {
+    background: black;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-store-link-0-x-buttonLink--minicart__link-to-cart) :global(.vtex-store-link-0-x-label--minicart__link-to-cart),
+  .flexColChild--minicart__footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button__label) {
+    width   : 100%;
+    padding : 0;
+    position: relative;
+    z-index : 1;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-store-link-0-x-buttonLink--minicart__link-to-cart) :global(.vtex-store-link-0-x-label--minicart__link-to-cart):hover,
+  .flexColChild--minicart__footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button__label):hover {
+    transition: .125s ease-in-out;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button__label):hover {
+    color: black;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-store-link-0-x-buttonLink--minicart__link-to-cart) :global(.vtex-store-link-0-x-label--minicart__link-to-cart):hover {
+    color: white;
+  }
+
+
+
+
+
+  /* .flexColChild--minicart__footer :global(.vtex-store-link-0-x-buttonLink--minicart__link-to-cart) {
+    border       : none;
+    border-radius: 0;
+    background   : white;
+    color        : black;
+    font-weight  : bold;
+    width        : 100%;
+    margin-bottom: 1rem;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button) {
+    border         : none;
+    border-radius  : 0;
+    background     : black;
+    font-weight    : bold;
+    padding        : 0 !important;
+    position       : relative;
+    overflow       : hidden;
+    height         : 3rem;
+    padding        : 0 2rem;
+    background-size: 400%;
+    color          : white;
+    cursor         : pointer;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button):hover::before {
+    transform: scaleX(1);
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button)::before {
+    content         : "";
+    position        : absolute;
+    top             : 0;
+    left            : 0;
+    transform       : scaleX(0);
+    transform-origin: 100% 50%;
+    width           : 100%;
+    height          : inherit;
+    border-radius   : inherit;
+    background      : white;
+    transition      : .125s ease-in-out;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button__label) {
+    width   : 100%;
+    padding : 0;
+    position: relative;
+    z-index : 1;
+  }
+
+  .flexColChild--minicart__footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button__label):hover {
+    color     : black;
+    transition: .125s ease-in-out;
+  } */

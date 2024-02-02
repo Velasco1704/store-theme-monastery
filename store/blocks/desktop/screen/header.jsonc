@@ -27,10 +27,9 @@
 
   "header-row#header__widgets-container--desktop": {
     "children": [
-      // "search-bar#header__search",
-      "icon#header__icon-search",
+      "modal-trigger#header__search-button",
       "icon#header__login-icon",
-      "minicart.v2#cart--desktop"
+      "minicart.v2#cart"
     ],
     "props": {
       "blockClass": "header__widgets-container--desktop"

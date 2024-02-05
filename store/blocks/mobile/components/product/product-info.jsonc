@@ -2,6 +2,16 @@
   "flex-layout.row#product__info--mobile": {
     "title": "Informacion general del PDP",
     "children": [
+      "flex-layout.col#product__info--mobile"
+    ],
+    "props": {
+      "blockClass": "product__info--mobile"
+    }
+  },
+
+  "flex-layout.col#product__info--mobile": {
+    "title": "Informacion general del PDP col",
+    "children": [
       "flex-layout.col#product__info-image--mobile",
       "flex-layout.col#product__info-data--mobile"
     ],
@@ -16,13 +26,27 @@
       "product-images#product__info-image--mobile"
     ],
     "props": {
-      "blockClass": "product__info-image--mobile"
+      "blockClass": "product__info-image--mobile",
+      "width": "55%"
+    }
+  },
+
+  "modal-layout#product-zoom--mobile": {
+    "children": [
+      "product-images.high-quality-image"
+    ],
+    "props": {
+      "blockClass": "product-zoom"
     }
   },
 
   "product-images#product__info-image--mobile": {
     "props": {
-      "maxHeight": 700
+      "ModalZoom": "modal-layout#product-zoom--mobile",
+      "zoomMode": "open-modal",
+      "maxHeight": 700,
+      "showPaginationDots": false,
+      "aspectRatio": "1:1"
     }
   },
 
@@ -33,10 +57,17 @@
       "product-selling-price",
       "sku-selector",
       "add-to-cart-button",
-      "product-description"
+      "product-description#product__description--mobile"
     ],
     "props": {
       "blockClass": "product__info-data--mobile"
+    }
+  },
+
+  "product-description#product__description--mobile": {
+    "props": {
+      "showTitle": false,
+      "collapseContent": true
     }
   }
 }

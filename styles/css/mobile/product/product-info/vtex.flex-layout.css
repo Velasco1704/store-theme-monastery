@@ -15,6 +15,11 @@
   z-index   : 1;
 }
 
+.flexColChild--product__info-image--mobile {
+  display    : flex;
+  align-items: center;
+}
+
 .flexColChild--product__info-image--mobile :global(.vtex-store-components-3-x-swiperCaretNext),
 .flexColChild--product__info-image--mobile :global(.vtex-store-components-3-x-swiperCaretPrev) {
   padding        : .50rem;
@@ -193,11 +198,6 @@
 }
 
 /* Description */
-
-
-.flexColChild--product__info-data--mobile:nth-child(5n) :global(.vtex-store-components-3-x-productDescriptionTitle) {
-  display: none;
-}
 
 .flexColChild--product__info-data--mobile:nth-child(5n) :global(.vtex-store-components-3-x-productDescriptionText) {
   margin-top   : .75rem;

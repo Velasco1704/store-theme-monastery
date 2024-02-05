@@ -2,7 +2,8 @@
   "responsive-layout.desktop#product": {
     "children": [
       "flex-layout.row#product__info--desktop",
-      "flex-layout.row#product__related-products--desktop"
+      "flex-layout.row#product__related-products--desktop",
+      "breadcrumb#product__breadcrumb"
     ]
   }
 }

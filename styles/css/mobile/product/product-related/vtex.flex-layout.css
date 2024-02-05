@@ -1,0 +1,10 @@
+.flexColChild--product__related-products--mobile:first-child {
+  padding      : 0;
+  margin-bottom: .5rem;
+}
+
+@media (width >=640px) {
+  .flexColChild--product__related-products--mobile:first-child {
+    border-bottom: .063rem solid #cecece;
+  }
+}

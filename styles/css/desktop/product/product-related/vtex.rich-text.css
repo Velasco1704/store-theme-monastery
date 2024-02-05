@@ -1,0 +1,25 @@
+.container--product__related-products--desktop {
+  position      : relative;
+  font-size     : 1.1em;
+  padding-bottom: .45rem;
+}
+
+.container--product__related-products--desktop::before {
+  content   : "";
+  width     : 100%;
+  height    : .25rem;
+  background: black;
+  position  : absolute;
+  bottom    : -.063rem;
+  left      : 0;
+}
+
+.paragraph--product__related-products--desktop {
+  color: black;
+}
+
+@media (width >=640px) {
+  .container--product__related-products--desktop {
+    width: 13rem;
+  }
+}

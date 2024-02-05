@@ -1,0 +1,8 @@
+{
+  "breadcrumb#product__breadcrumb": {
+    "title": "Product breadcrumb",
+    "props": {
+      "showOnMobile": true
+    }
+  }
+}

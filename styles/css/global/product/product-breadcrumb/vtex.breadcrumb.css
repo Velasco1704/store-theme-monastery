@@ -1,0 +1,18 @@
+.container {
+  border-top     : .063rem solid #e5e7eb;
+  background     : #F1F5F9;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  flex-wrap      : wrap;
+  height         : 6rem;
+}
+
+@media (width <=640px) {
+
+  .link,
+  .homeLink,
+  .term {
+    font-size: .9em;
+  }
+}

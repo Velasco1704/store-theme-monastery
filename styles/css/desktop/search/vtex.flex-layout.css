@@ -1,0 +1,49 @@
+  :global(.vtex-search-result-3-x-searchResultContainer) {
+    margin   : 0;
+    width    : 100%;
+    max-width: none;
+  }
+
+  .flexRow--search-result--desktop {
+    margin-top: 6.5rem;
+    position  : relative;
+  }
+
+  .flexRow--search-result--desktop::before {
+    content   : "";
+    width     : 100%;
+    height    : 5rem;
+    background: black;
+    position  : absolute;
+    top       : -6.5rem;
+    left      : 0;
+  }
+
+  :global(.vtex-search-result-3-x-gallery) {
+    margin : 1rem;
+    padding: 0;
+  }
+
+
+  .flexColChild--search-result--desktop :global(.vtex-store-components-3-x-searchBarContainer) {
+    max-width: none;
+    padding  : 0 1rem;
+  }
+
+  .flexColChild--search-result--desktop :global(.vtex-input-prefix__group) {
+    border       : .063rem solid #CBD5E1;
+    border-radius: 2rem;
+    height       : 3rem;
+  }
+
+  .flexColChild--search-result--desktop :global(.vtex-styleguide-9-x-input) {
+    color: black;
+  }
+
+  .flexColChild--search-result--desktop :global(.vtex-styleguide-9-x-input)::placeholder {
+    color: #CBD5E1;
+  }
+
+  .flexColChild--search-result--desktop :global(.vtex-store-components-3-x-portalContainer) {
+    display: none;
+  }

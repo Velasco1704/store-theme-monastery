@@ -1,0 +1,25 @@
+  :global(.vtex-search-result-3-x-notFound--layout--search-not-found) {
+    margin-top: 6rem;
+    position  : relative;
+  }
+
+  :global(.vtex-search-result-3-x-notFound--layout--search-not-found)::before {
+    content   : "";
+    width     : 100%;
+    height    : 4.024rem;
+    background: black;
+    position  : absolute;
+    top       : -6rem;
+    left      : 0;
+  }
+
+  @media (width >=1025px) {
+    :global(.vtex-search-result-3-x-notFound--layout--search-not-found) {
+      margin-top: 6.5rem;
+    }
+
+    :global(.vtex-search-result-3-x-notFound--layout--search-not-found)::before {
+      height: 5rem;
+      top   : -6.5rem;
+    }
+  }

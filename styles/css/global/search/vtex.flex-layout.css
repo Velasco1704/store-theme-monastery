@@ -32,6 +32,9 @@
 
 .flexColChild--search__content :global(.vtex-search-2-x-biggy-autocomplete) {
   background: black;
+  left      : 0;
+  right     : 0;
+  width     : 100%;
 }
 
 .flexColChild--search__content :global(.vtex-search-2-x-itemListTitle),
@@ -52,4 +55,53 @@
 
 .flexColChild--search__content :global(.vtex-search-2-x-tileListList) {
   gap: 1rem;
+}
+
+.flexColChild--search__content :global(.vtex-search-2-x-tileListFooter) {
+  background     : white;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  height         : 2.5rem;
+  width          : 100%;
+  max-width      : 19rem;
+  background-size: 400%;
+  cursor         : pointer;
+  overflow       : hidden;
+  cursor         : pointer;
+  position       : relative;
+}
+
+.flexColChild--search__content :global(.vtex-search-2-x-tileListFooter)::before {
+  content         : "";
+  position        : absolute;
+  top             : 0;
+  left            : 0;
+  background      : black;
+  width           : inherit;
+  height          : inherit;
+  transform       : scaleX(0);
+  transform-origin: 0% 50%;
+  transition      : .125s ease-in-out;
+}
+
+.flexColChild--search__content :global(.vtex-search-2-x-tileListFooter):hover::before {
+  transform: scaleX(1);
+}
+
+.flexColChild--search__content :global(.vtex-search-2-x-tileListFooter) :global(.vtex-search-2-x-tileListSeeMore) {
+  color          : black;
+  text-transform : uppercase;
+  text-decoration: none;
+  font-weight    : bold;
+  line-height    : normal;
+  font-size      : 1.1em;
+  display        : flex;
+  align-items    : center;
+  z-index        : 1;
+}
+
+.flexColChild--search__content :global(.vtex-search-2-x-tileListFooter) :global(.vtex-search-2-x-tileListSeeMore):hover {
+  color     : white;
+  transition: .125s ease-in-out;
 }

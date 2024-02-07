@@ -23,27 +23,3 @@
     margin : 1rem;
     padding: 0;
   }
-
-
-  .flexColChild--search-result--desktop :global(.vtex-store-components-3-x-searchBarContainer) {
-    max-width: none;
-    padding  : 0 1rem;
-  }
-
-  .flexColChild--search-result--desktop :global(.vtex-input-prefix__group) {
-    border       : .063rem solid #CBD5E1;
-    border-radius: 2rem;
-    height       : 3rem;
-  }
-
-  .flexColChild--search-result--desktop :global(.vtex-styleguide-9-x-input) {
-    color: black;
-  }
-
-  .flexColChild--search-result--desktop :global(.vtex-styleguide-9-x-input)::placeholder {
-    color: #CBD5E1;
-  }
-
-  .flexColChild--search-result--desktop :global(.vtex-store-components-3-x-portalContainer) {
-    display: none;
-  }

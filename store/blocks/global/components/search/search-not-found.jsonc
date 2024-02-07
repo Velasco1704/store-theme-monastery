@@ -1,0 +1,21 @@
+{
+  "search-not-found-layout": {
+    "children": [
+      "rich-text#search",
+      "search-bar#search-result",
+      "rich-text#not-found"
+    ],
+    "props": {
+      "blockClass": "search-not-found"
+    }
+  },
+
+  "rich-text#not-found": {
+    "props": {
+      "text": "No hay resultado",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "not-found"
+    }
+  }
+}

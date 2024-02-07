@@ -22,20 +22,13 @@
   "flex-layout.col#search-result--desktop": {
     "title": "Search Result Col",
     "children": [
-      "rich-text#search--desktop",
+      "rich-text#search",
       "search-bar#search-result",
-      "search-content#search-result"
+      "search-content#search-result",
+      "breadcrumb.search#search-result"
     ],
     "props": {
       "blockClass": "search-result--desktop"
-    }
-  },
-  "rich-text#search--desktop": {
-    "props": {
-      "text": "BUSCAR",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "blockClass": "search-text--desktop"
     }
   }
 }

@@ -1,0 +1,32 @@
+  :global(.vtex-search-result-3-x-notFound--layout--search-not-found) :global(.vtex-store-components-3-x-searchBarContainer),
+  .flexColChild--search-result--desktop :global(.vtex-store-components-3-x-searchBarContainer),
+  .flexColChild--search-result--mobile :global(.vtex-store-components-3-x-searchBarContainer) {
+    max-width: none;
+    padding  : 0 1rem;
+  }
+
+  :global(.vtex-search-result-3-x-notFound--layout--search-not-found) :global(.vtex-input-prefix__group),
+  .flexColChild--search-result--desktop :global(.vtex-input-prefix__group),
+  .flexColChild--search-result--mobile :global(.vtex-input-prefix__group) {
+    border       : .063rem solid #CBD5E1;
+    border-radius: 2rem;
+    height       : 3rem;
+  }
+
+  :global(.vtex-search-result-3-x-notFound--layout--search-not-found) :global(.vtex-styleguide-9-x-input),
+  .flexColChild--search-result--desktop :global(.vtex-styleguide-9-x-input),
+  .flexColChild--search-result--mobile :global(.vtex-styleguide-9-x-input) {
+    color: black;
+  }
+
+  :global(.vtex-search-result-3-x-notFound--layout--search-not-found) :global(.vtex-styleguide-9-x-input)::placeholder,
+  .flexColChild--search-result--desktop :global(.vtex-styleguide-9-x-input)::placeholder,
+  .flexColChild--search-result--mobile :global(.vtex-styleguide-9-x-input)::placeholder {
+    color: #CBD5E1;
+  }
+
+  :global(.vtex-search-result-3-x-notFound--layout--search-not-found) :global(.vtex-store-components-3-x-portalContainer),
+  .flexColChild--search-result--desktop :global(.vtex-store-components-3-x-portalContainer),
+  .flexColChild--search-result--mobile :global(.vtex-store-components-3-x-portalContainer) {
+    display: none;
+  }

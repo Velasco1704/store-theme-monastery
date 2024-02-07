@@ -109,7 +109,6 @@
       "search-result-layout.desktop",
       "search-result-layout.mobile",
       "search-not-found-layout"
-    ],
-    "props": {}
+    ]
   }
 }

@@ -1,0 +1,10 @@
+{
+  "rich-text#search": {
+    "props": {
+      "text": "BUSCAR",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "search-text"
+    }
+  }
+}

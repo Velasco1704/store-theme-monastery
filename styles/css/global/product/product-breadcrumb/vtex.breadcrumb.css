@@ -8,6 +8,10 @@
   height         : 6rem;
 }
 
+.container :global(.vtex-breadcrumb-1-x-term) {
+  color: #979899;
+}
+
 @media (width <=640px) {
 
   .link,

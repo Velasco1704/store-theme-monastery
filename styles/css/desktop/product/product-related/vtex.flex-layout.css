@@ -1,0 +1,9 @@
+.flexRow--product__related-products--desktop {
+  margin: 0 1rem;
+}
+
+.flexColChild--product__related-products--desktop:first-child {
+  padding      : 0;
+  margin-bottom: .5rem;
+  border-bottom: .063rem solid #cecece;
+}

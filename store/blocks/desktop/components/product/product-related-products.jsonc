@@ -1,0 +1,32 @@
+{
+  "flex-layout.row#product__related-products--desktop": {
+    "title": "Informacion adicional",
+    "children": [
+      "flex-layout.col#product__related-products--desktop"
+    ],
+    "props": {
+      "blockClass": "product__related-products--desktop",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#product__related-products--desktop": {
+    "title": "Informacion adicional col",
+    "children": [
+      "rich-text#product__related-products--desktop",
+      "list-context.product-list#product__related-products"
+    ],
+    "props": {
+      "blockClass": "product__related-products--desktop"
+    }
+  },
+
+  "rich-text#product__related-products--desktop": {
+    "props": {
+      "text": "RELATE PRODUCTS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "product__related-products--desktop"
+    }
+  }
+}

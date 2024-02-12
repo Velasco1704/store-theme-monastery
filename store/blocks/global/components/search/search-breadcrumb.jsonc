@@ -1,0 +1,7 @@
+{
+  "breadcrumb.search#search-result": {
+    "props": {
+      "showOnMobile": true
+    }
+  }
+}

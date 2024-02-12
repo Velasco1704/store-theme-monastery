@@ -1,0 +1,40 @@
+{
+  "list-context.product-list#product__related-products": {
+    "title": "Product list context related products",
+    "blocks": [
+      "product-summary.shelf#product__related-products"
+    ],
+    "children": [
+      "slider-layout##product__related-products"
+    ]
+  },
+
+  "slider-layout##product__related-products": {
+    "title": "Product related Slider",
+    "props": {
+      "infinite": false,
+      "showNavigationArrows": "always",
+      "blockClass": "carousel",
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      }
+    }
+  },
+
+  "product-summary.shelf#product__related-products": {
+    "title": "Product Summary",
+    "children": [
+      "product-summary-image#related-product",
+      "product-summary-name",
+      "product-selling-price"
+    ]
+  },
+  "product-summary-image#related-product": {
+    "props": {
+      "height": 400
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#product__related-products--mobile": {
+    "title": "Informacion adicional",
+    "children": [
+      "flex-layout.col#product__related-products--mobile"
+    ],
+    "props": {
+      "blockClass": "product__related-products--mobile"
+    }
+  },
+
+  "flex-layout.col#product__related-products--mobile": {
+    "title": "Informacion adicional col",
+    "children": [
+      "rich-text#product__related-products--mobile",
+      "list-context.product-list#product__related-products"
+    ],
+    "props": {
+      "blockClass": "product__related-products--mobile"
+    }
+  },
+
+  "rich-text#product__related-products--mobile": {
+    "props": {
+      "text": "RELATE PRODUCTS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "product__related-products--mobile"
+    }
+  }
+}

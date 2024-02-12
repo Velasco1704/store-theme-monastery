@@ -4,6 +4,7 @@
   position  : absolute;
   top       : 0;
   transition: .125ms ease-in-out;
+  z-index   : 2;
 }
 
 .headerRowContainer--header__widgets-container--mobile :global(.vtex-modal-layout-0-x-triggerContainer) {

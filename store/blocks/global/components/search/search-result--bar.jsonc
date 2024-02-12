@@ -1,0 +1,11 @@
+{
+  "search-bar#search-result": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Busca escribiendo palabras clave"
+    }
+  }
+}

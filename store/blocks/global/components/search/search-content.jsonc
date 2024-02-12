@@ -1,0 +1,42 @@
+{
+  "search-content#search-result": {
+    "blocks": [
+      "gallery#search-result__gallery",
+      "not-found"
+    ],
+    "props": {
+      "blockClass": "search-content__search-result"
+    }
+  },
+
+  "gallery#search-result__gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          }
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf#search-result"
+    }
+  },
+
+  "product-summary.shelf#search-result": {
+    "children": [
+      "product-summary-image#search-result",
+      "product-summary-name",
+      "product-selling-price"
+    ]
+  },
+
+  "product-summary-image#search-result": {
+    "props": {
+      "aspectRatio": "3:4"
+    }
+  }
+}

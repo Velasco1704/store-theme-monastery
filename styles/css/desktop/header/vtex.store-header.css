@@ -15,6 +15,7 @@
   padding        : 1.25rem 1rem;
   background     : transparent;
   transition     : .125ms ease-in-out;
+  z-index        : 2;
 }
 
 .headerRowContainer--header__container--desktop:hover {

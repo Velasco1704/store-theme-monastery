@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#bullets": {
+    "title": "Flex Bullets",
+    "children": [
+      "list-context.bullet-group"
+    ],
+    "props": {
+      "blockClass": "bullets",
+      "fullWidth": true
+    }
+  },
+
+  "list-context.bullet-group": {
+    "title": "Lista de Bullets",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/products/men/hoodie.jpg",
+          "titleBullet": "Hoodies",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/products/woman/black-top.jpg",
+          "titleBullet": "Tops",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/products/woman/black-top.jpg",
+          "titleBullet": "Tops 2",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/products/men/hoodie.jpg",
+          "titleBullet": "Hoodies 2",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/products/woman/black-top.jpg",
+          "titleBullet": "Tops 3",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/products/woman/black-top.jpg",
+          "titleBullet": "Tops 4",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 3
+      },
+      "infinite": true,
+      "blockClass": "bullet-group"
+    }
+  }
+}

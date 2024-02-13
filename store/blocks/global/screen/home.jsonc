@@ -7,28 +7,7 @@
       "responsive-layout.phone#home__section-1",
       "responsive-layout.mobile##home__section-1",
       "whatsapp-button",
-      "list-context.bullet-group"
+      "flex-layout.row#bullets"
     ]
-  },
-  "list-context.bullet-group": {
-    "title": "Lista de Bullets",
-    "props": {
-      "bullets": [
-        {
-          "image": "image.png",
-          "titleBullet": "Computadores",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "image.png",
-          "titleBullet": "Ropa",
-          "link": {
-            "url": "/"
-          }
-        }
-      ]
-    }
   }
 }

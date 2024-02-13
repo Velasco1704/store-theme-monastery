@@ -1,0 +1,8 @@
+.sliderLayoutContainer--bullet-group .bullet__item--title {
+  color: black;
+}
+
+.sliderLayoutContainer--bullet-group .bullet__item--link {
+  text-decoration: none;
+  text-align     : center;
+}

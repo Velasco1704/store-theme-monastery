@@ -57,7 +57,8 @@
       "product-selling-price",
       "sku-selector",
       "add-to-cart-button",
-      "product-description#product__description--mobile"
+      "product-description#product__description--mobile",
+      "modal-trigger#add-to-cart-info"
     ],
     "props": {
       "blockClass": "product__info-data--mobile"

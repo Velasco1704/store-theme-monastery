@@ -1,0 +1,7 @@
+{
+  "store.custom#custom-search": {
+    "blocks": [
+      "department-search"
+    ]
+  }
+}

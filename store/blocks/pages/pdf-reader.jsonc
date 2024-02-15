@@ -1,0 +1,15 @@
+{
+  "store.custom#pdf-reader": {
+    "blocks": [
+      "pdf-reader"
+    ]
+  },
+
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/documents/sample.pdf",
+      "width": 500,
+      "height": 800
+    }
+  }
+}

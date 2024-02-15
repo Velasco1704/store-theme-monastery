@@ -1,5 +1,8 @@
 {
   "store.custom#custom-search": {
     "path": "/custom-search"
+  },
+  "store.custom#pdf-reader": {
+    "path": "/pdf-reader"
   }
 }

@@ -1,0 +1,7 @@
+{
+  "store.custom#quick-order": {
+    "blocks": [
+      "quick-order"
+    ]
+  }
+}

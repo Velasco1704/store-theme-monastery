@@ -2,7 +2,7 @@
 
 ## Que es Store Theme Monastery
 
-El **Store Theme Monastery** es una réplica con fines prácticos del comercio electrónico [Monastery](https://monasterycouture.com.co/). Este proyecto tiene como objetivo principal facilitar el aprendizaje sobre VTEX IO.s
+El **Store Theme Monastery** es una réplica con fines prácticos del comercio electrónico [Monastery](https://monasterycouture.com.co/). Este proyecto tiene como objetivo principal facilitar el aprendizaje sobre VTEX IO.
 
 ## Instalación
 
